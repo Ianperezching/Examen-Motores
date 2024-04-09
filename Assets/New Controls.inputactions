@@ -1,0 +1,101 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "cce17cc2-a68b-4bff-a2e5-cba4106c9838",
+            "actions": [
+                {
+                    "name": "Movimiento 3D",
+                    "type": "Value",
+                    "id": "314edeb8-407d-4e25-a175-a9aab5f62126",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "3D Vector",
+                    "id": "94c97d4e-f84a-4461-aea5-6642dcdc8476",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento 3D",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "c4301606-bbb6-4592-8eda-7883770404fa",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Movimiento",
+                    "action": "Movimiento 3D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "d80c4a45-1e9c-44b0-8016-a1e026898bed",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Movimiento",
+                    "action": "Movimiento 3D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "68be92b5-1cf2-4ef8-ba72-2255ce4bc820",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Movimiento",
+                    "action": "Movimiento 3D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "e4fb094d-e419-46c0-9260-2bfd08909465",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Movimiento",
+                    "action": "Movimiento 3D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "5bb4dd4a-8032-491d-b016-9c03dafec55e",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Movimiento",
+                    "action": "Movimiento 3D",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Movimiento",
+            "bindingGroup": "Movimiento",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
