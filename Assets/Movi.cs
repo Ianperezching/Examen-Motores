@@ -12,6 +12,7 @@ public class Movi : MonoBehaviour
     [SerializeField] private LayerMask groundLayers;
     [SerializeField] private float rayDistance = 2f;
     [SerializeField] private Color rayDebugColor = Color.red;
+    public int vida = 10;
 
     
     private Rigidbody myRB;
@@ -46,10 +47,10 @@ public class Movi : MonoBehaviour
             //myRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
         //myRB.velocity = movementPlayer * speed;
-
         Debug.Log(canJump);
-
-       
-       
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        //if(collision.)
     }
 }
